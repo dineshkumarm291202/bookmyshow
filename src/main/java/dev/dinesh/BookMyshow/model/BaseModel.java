@@ -15,7 +15,7 @@ public class BaseModel
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name ="ID")
     private int id;
-    @Column("CREATED_AT")
+    @Column(name="CREATED_AT")
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private String createdBy;

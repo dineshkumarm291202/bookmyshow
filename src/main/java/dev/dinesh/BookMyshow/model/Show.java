@@ -20,7 +20,7 @@ public class Show extends BaseModel{
     private LocalDateTime endtime;
     @ManyToOne
     private Movie movie;
-    @ManyToMany
+    @ManyToOne
     private Auditorium auditorium;
     @OneToMany
     private List<ShowSeat> showseat;

@@ -1,12 +1,9 @@
-package dev.dinesh.BookMyshow.model.constants;
+package dev.dinesh.BookMyshow.model;
 
-import dev.dinesh.BookMyshow.model.BaseModel;
 import jakarta.persistence.Entity;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.swing.*;
 import java.util.List;
 
 @Getter
@@ -16,5 +13,4 @@ public class User extends BaseModel {
     private String name;
     private String email;
     private List<Ticket> ticket;
-
 }
