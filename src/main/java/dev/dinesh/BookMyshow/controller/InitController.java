@@ -1,4 +1,4 @@
 package dev.dinesh.BookMyshow.controller;
 
-public class BookMyshowController {
+public class InitController {
 }
